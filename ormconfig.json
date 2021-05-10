@@ -1,10 +1,10 @@
 {
     "type": "postgres",
-    "host": "ec2-18-215-111-67.compute-1.amazonaws.com:5432",
+    "host": "127.0.0.1",
     "port": 5432,
-    "username": "bbyxdhopuritrc",
-    "password": "a7a1d319b85cb78b039bfcd920667741a7e337c7245961ddc12b9e74d487210b",
-    "database": "d5k7oo138habk2",
+    "username": "postgres",
+    "password": "root",
+    "database": "informacion",
     "synchronize": true,
     "entities": [
         "src/entity/**/*.ts"
